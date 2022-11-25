@@ -1,0 +1,45 @@
+/* Футер сайту */
+
+.page-footer {
+	padding: 60px 0;
+
+	background-color: $accent-bg-color;
+}
+
+.page-footer__container {
+	display: flex;
+}
+
+.page-footer__logo {
+	display: inline-block;
+	margin-bottom: 20px;
+
+	color: $primary-white-color;
+}
+
+.page-footer__contacts-list {
+	display: block;
+}
+
+.address {
+	margin-top: 0;
+	margin-bottom: 9px;
+
+	color: $primary-white-color;
+	font-style: normal;
+}
+
+.page-footer__wrapper {
+	margin-left: 86px;
+	padding-top: 12px;
+}
+
+.page-footer__text {
+	margin-bottom: 20px;
+
+	font-weight: 700;
+	line-height: 1.15;
+	text-transform: uppercase;
+
+	color: $primary-white-color;
+}
